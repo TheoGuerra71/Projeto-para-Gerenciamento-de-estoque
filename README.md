@@ -42,8 +42,8 @@ Certifique-se de ter instalado em sua máquina:
 ### Passo a Passo
 
 **1. Clone o repositório**
-```bash
-git clone [https://github.com/TheoGuerra71/Projeto-para-Gerenciamento-de-estoque.git](https://github.com/TheoGuerra71/Projeto-para-Gerenciamento-de-estoque.git)
+`git clone https://github.com/TheoGuerra71/Projeto-para-Gerenciamento-de-estoque.git`
+
 **2. Compile e execute o projeto**
 Abra o projeto na sua IDE, clique com o botão direito sobre a raiz do projeto e selecione **"Build Project"** (ou use o Maven diretamente). Em seguida, clique em **"Run"**.
 
@@ -57,17 +57,17 @@ Com a aplicação rodando, precisamos criar o usuário administrador no banco de
 * Conecte-se e execute o seguinte script SQL para inserir o usuário admin:
 
 ```sql
-*INSERT INTO Usuario (login, senha, papel, id) VALUES 
+INSERT INTO Usuario (login, senha, papel, id) VALUES 
 ('admin', '$2a$10$K6PG.YUsSpMT/LOyPpeB5eUVdPlmfDfSH.N0xLHAC1NbgblBhraHe', 'ADMIN', 1);
-*Clique no botão Run (Verde).
+Clique no botão Run (Verde).
 
-**4. Acesse a Aplicação**
+4. Acesse a Aplicação
 Agora que o banco está configurado, acesse o sistema pelo navegador:
 
-*URL: https://localhost:8443/
+URL: https://localhost:8443/
 
-*Login: admin
+Login: admin
 
-*Senha: 123
+Senha: 123
 
-*Pronto! O sistema está configurado e pronto para uso.
+Pronto! O sistema está configurado e pronto para uso.
